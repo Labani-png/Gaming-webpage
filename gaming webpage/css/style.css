@@ -1,0 +1,628 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box!important;
+
+
+}
+
+body{
+  background-color: black!important;
+
+
+}
+.navbar{
+  background-color: #e42626;
+  padding-bottom: 40px!important;
+}
+
+.navbar-brand{
+  font-family: 'Russo One', sans-serif;
+  font-size: 27px!important;
+  margin-top: 10px!important;
+
+
+
+}
+.brand-logo{
+  width: 8%!important;
+}
+
+.nav-link{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px 10px!important;
+  font-family: 'Gruppo', cursive;
+  font-size: 28px;
+  border-radius: 5px;
+  margin-top: 34px!important;
+
+}
+.nav-link:hover{
+color: black!important;
+font-weight: bold!important;
+transition: .5s!important;
+}
+
+
+
+.banner-sec{
+  background-image: url('../images/banner_bg.png')!important;
+  /* background-size: cover!important; */
+  background-size: 100% 660px!important;
+  background-attachment: fixed;
+  width: 100%!important;
+  height: 660px!important;
+
+}
+
+
+.jumbotron{
+  background: transparent!important;
+
+  padding-top: 7rem!important;
+  /* margin-top: 30%!important; */
+  text-align: left!important;
+
+}
+
+.display-4{
+  color: white;
+  margin-top: 5.5rem;
+  font-family: 'Krona One', sans-serif;
+  font-size: 54px!important;
+  font-weight: bold!important;
+  text-transform: capitalize!important;
+
+}
+span{
+  color: #b31212!important;
+}
+
+.lead{
+  color: white!important;
+  padding-right: 140px!important;
+  width: 55%!important;
+  margin-top: 34px!important;
+}
+
+.btn{
+  padding: 13px 32px!important;
+  /* background-color: rgba(255, 0, 33, 0.6)!important; */
+  /* font-family: 'Quicksand', sans-serif; */
+  font-weight: bold!important;
+  color: white!important;
+  letter-spacing: 1px;
+  margin-top: 34px!important;
+  margin-right: 20px!important;
+  background-image:linear-gradient(to left, #ff0000 0%, #c6019a 0%, #ff0000 100%)!important;
+}
+
+/* ................logo section.................. */
+
+.logo-set{
+  margin-top: 54px!important;
+  padding-top: 44px!important;
+  padding-bottom: 56px!important;
+}
+
+.logo-setup{
+  padding: 20px 48px 10px 13px;
+  margin-left: 23px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* ..............about section................. */
+
+.about-section{
+  /* margin-top: 85px!important; */
+  padding-top: 140px!important;
+  padding-bottom: 70px!important;
+}
+
+.sec-img img{
+  width: 100%!important;
+}
+
+.about-text{
+  color: white!important;
+}
+
+.about-text h1{
+  font-size: 46px!important;
+  font-family: 'Krona One', sans-serif;
+  /* letter-spacing: 1px!important; */
+}
+
+
+/* ................live sec................... */
+
+
+.live-sec{
+  padding: 140px 0 156px!important;
+  background-image: linear-gradient(to top, #000000 0%, #291344 57%, #08030c 100%)!important;
+}
+
+.live-text h1{
+  color: #fff;
+  font-size: 45px!important;
+    font-family: 'Krona One', sans-serif;
+    /* font-family: 'Fredoka One', cursive; */
+    letter-spacing: 1px;
+}
+
+.live-image{
+  width: 34%!important;
+}
+
+.live-image :hover{
+
+  background-image: linear-gradient(to left, #ff0000 0%, #c6019a 0%, #ff0000 100%)!important;
+}
+
+
+
+
+
+
+/* .................war image................ */
+
+.war-section{
+  padding-top: 67px!important;
+  padding-bottom: 89px!important;
+}
+
+.heading h1{
+  color: #fff;
+    font-family: 'Krona One', sans-serif;
+    font-size: 43px!important;
+    text-align: center;
+    padding-bottom: 30px!important;
+
+}
+
+.war-img{
+
+  height: 570px!important;
+  margin-top: 40px!important;
+  position: relative;
+  overflow: hidden!important;
+  cursor: pointer;
+}
+
+.war-img img{
+  width: 100%!important;
+  height: auto!important;
+}
+
+.content{
+  color: #fff!important;
+  font-family: 'Fredoka One', cursive;
+  text-align: center!important;
+
+  background-image: linear-gradient(to left, #c91249 0%, #c80f56 51%, #ff0000 100%)!important;
+  position: absolute;
+  top: 0!important;
+  left: 100%!important;
+  padding-bottom: 20px!important;
+  width: 100%;
+  height: 100%!important;
+  opacity: .6!important;
+  transition: all .5s!important;
+
+}
+
+.war-img:hover .content{
+  left: 0!important;
+
+}
+
+.content h2 {
+  padding-bottom: 25px!important;
+  padding-top: 20px!important;
+  letter-spacing: 1px!important;
+  margin-top: 45px!important;
+}
+.content h4{
+  padding-bottom: 25px!important;
+}
+.content p{
+  padding:20px 167px 47px!important;
+  margin-top: 45px!important;
+}
+
+
+
+
+
+
+.btn_war{
+  padding: 8px 45px!important;
+  /* background-color: rgba(255, 0, 33, 0.6)!important; */
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-weight: bold!important; */
+  color: white!important;
+  margin-top: 34px!important;
+  /* margin-right: 20px!important; */
+  border: 1px solid #45d5be!important;
+  text-decoration: none!important;
+  letter-spacing: 1px!important;
+}
+
+.btn_war:hover{
+  background-color: black!important;
+  color: white!important;
+  border:none!important;
+}
+
+
+
+
+/* ......................challange-sec..................... */
+
+
+.challenge-sec{
+  background-image: linear-gradient(to top, #000000 0%, #1a1e3d 45%, #08030c 100%)!important;
+  padding-top: 67px!important;
+  padding-bottom: 80px!important;
+}
+
+.challenge-item{
+  color: #fff;
+  font-family: 'Fredoka One', cursive;
+}
+
+.challenge-item img{
+  width: 10%!important;
+}
+.challenge-item p{
+  font-size: 21px!important;
+
+}
+
+.challenge-item a{
+  text-decoration: none!important;
+  /* background: transparent!important; */
+  /* color: linear-gradient(to right, #ff0000 0%, #c6019a 50%, #ff0000 100%)!important; */
+    color: #cc0055!important;
+}
+
+
+
+
+
+
+
+.bg_1{
+  background-image: url('../images/ux3 (2).jpg');
+  /* background-position: center!important; */
+  background-repeat: no-repeat!important;
+  background-size: 100% 100%!important;
+  width: 100%!important;
+  height: 400px!important;
+
+}
+
+.img-items{
+
+  color: #fff!important;
+  text-align: center!important;
+  font-family: 'Krona One', sans-serif;
+}
+
+.img-items h5{
+  padding: 24px 0px!important;
+  font-size: 19px!important;
+}
+
+.img-items a{
+  text-decoration: none!important;
+  color: #18dc54!important;
+  font-size: 16px;
+  border:1px solid #18b931!important;
+  padding: 4px 35px!important;
+  border-top-left-radius: 12px!important;
+  border-bottom-left-radius: 2px!important;
+  border-top-right-radius: 12px!important;
+  border-bottom-right-radius: 2px!important;
+  font-family: 'Krona One', sans-serif;
+
+
+}
+
+.img-items a:hover{
+  background-color: red!important;
+  color: #fff!important;
+  border: none!important;
+}
+
+.img-items p{
+  padding-bottom: 25px!important;
+}
+
+
+
+/* .................Fighter card section.................. */
+
+.card-section{
+  padding-top: 56px!important;
+  padding-bottom: 70px!important;
+}
+.card_jumbo h1{
+  color: #fff;
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+  padding-top: 35px!important;
+  padding-bottom: 45px!important;
+}
+
+.card{
+  border: none!important;
+  box-shadow: 0 1px 3px 0px #f21170!important;
+  transition: 1s!important;
+
+}
+
+.card:hover{
+  transform: scale(1.1)!important;
+}
+
+.card-body{
+  background-color: black!important;
+  text-align: center!important;
+
+  border: none!important;
+  color: #cc0055!important;
+}
+.c-img-one{
+  width: 100%!important;
+  height: 300px!important;
+}
+
+.c-img-two{
+  width: 100%!important;
+  height: 350px!important;
+}
+
+
+
+.card-btn{
+  padding: 5px 9px!important;
+  /* background-color: rgba(255, 0, 33, 0.6)!important; */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px!important;
+
+  background-image:linear-gradient(to left, #ff0000 0%, #c6019a 0%, #ff0000 100%)!important;
+}
+
+.subscribe{
+  border: 1px solid #cc0055!important;
+  padding: 4px 18px!important;
+    width: 66%;
+    margin-left: 58px;
+    cursor: pointer;
+}
+
+
+
+
+/*  ..............Upcoming section................  */
+
+
+.upcoming_sec{
+
+  padding-top: 50px!important;
+  position: relative;
+}
+
+.up_heading{
+  color: #fff!important;
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+  padding-bottom: 94px!important;
+}
+
+
+.upcoming_bg{
+  background-image: url('../images/event_bg.png');
+  background-size: 100% 600px!important;
+  background-repeat: no-repeat;
+  width: 100%!important;
+  height: 600px!important;
+  /* position: relative; */
+
+}
+
+
+.Upcoming_text{
+  /* position: absolute; */
+  text-align: center!important;
+  color: #fff!important;
+  font-family: 'Krona One', sans-serif;
+  font-weight: bold!important;
+  padding-top: 70px!important;
+  margin-top: 70px!important;
+  padding-bottom: 23px!important;
+
+}
+
+.timer {
+  color: #fff;
+  /* margin-bottom: 40px!important; */
+
+
+}
+
+.days h2{
+  font-size: 46px!important;
+  font-weight: bold!important;
+}
+
+.time h2{
+  font-size: 46px!important;
+  font-weight: bold!important;
+}
+
+
+
+
+ /* ..............pricing section.............. */
+
+
+
+ .pricing-sec{
+   padding-top: 140px!important;
+   padding-bottom: 90px!important;
+   color: #fff!important;
+ }
+
+
+ .pricing-heading{
+       font-family: 'Krona One', sans-serif;
+       text-align: center!important;
+       padding-bottom: 60px!important;
+ }
+
+ .pricing-text{
+   font-family: 'Montserrat Alternates', sans-serif;
+   background-color: #0b111f!important;
+   text-align: center;
+    padding: 35px 35px 60px!important;
+    background-color: #0b111f!important;
+    /* position: relative; */
+    /* z-index: 1; */
+    background-image: url('../images/pricing_bg.png')!important;
+    /* background-position: top; */
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+ .pricing-text h2{
+font-size: 35px!important;
+font-weight: bold!important;
+/* font-family: 'Montserrat Alternates', sans-serif!important; */
+padding-top: 35px!important;
+
+ }
+
+
+ .pricing-text ul{
+  margin: 26px 0 35px!important;
+  padding-top: 30px!important;
+ }
+
+ .pricing-text ul li{
+   list-style-type: none!important;
+   font-size: 14px;
+    color: #7f7f7f;
+    padding: 15px 0;
+    border-bottom: 1px dotted;
+ }
+
+ .pricing-text ul li:last-child{
+   border: none!important;
+ }
+ .pricing-text a{
+   text-decoration: none!important;
+   color: white!important;
+   /* border-image: linear-gradient(to left, #ff0000 0%, #c6019a 100%)!important; */
+   padding: 8px 30px!important;
+   border: 2px solid!important;
+   border-top-color: #ff0000!important;
+   border-right-color: #c6019a!important;
+   border-bottom-color: #c6019a!important;
+   border-left-color: #c6019a!important;
+
+ }
+
+ .pricing-text a:hover{
+   background-color: #e83e8c!important;
+   transition: 1s!important;
+ }
+
+
+
+
+ /* ....................Details-sec................... */
+
+
+ .Details-sec{
+   padding-top: 60px!important;
+   color: #fff;
+   padding-bottom: 80px!important;
+ }
+
+ .hero{
+   margin-bottom: 30px!important;
+   border-bottom: dotted!important;
+   border-width: 1px!important;
+   width: 67%;
+ }
+
+ .Details-sec p{
+   font-family: 'Montserrat Alternates', sans-serif!important;
+
+ }
+
+
+ .logo{
+   text-decoration: none!important;
+   color: #fff!important;
+   font-size: 25px;
+   font-weight: bold!important;
+
+ }
+
+ .links ul li{
+   list-style-type: none!important;
+   color: #fff!important;
+ }
+
+ .links a{
+   text-decoration: none!important;
+   color: #b31212!important;
+ }
+
+ .links a:hover{
+   color: blue!important;
+ }
+
+ #mailbox{
+   background: #eeeeee!important;
+   /* border: none!important; */
+   outline: none!important;
+   border-top-color: #ff0000!important;
+   border-right-color: #c6019a!important;
+   border-bottom-color: #c6019a!important;
+   border-left-color: #c6019a!important;
+   padding: 5px 37px!important;
+   margin-top: 23px!important;
+ }
+
+
+
+
+ /* ................Footer Container................ */
+
+
+
+ .footer-section{
+   padding-top: 20px!important;
+   padding-bottom: 17px!important;
+   color: #fff;
+   text-align: center!important;
+   background-color: #0b111f!important;
+ }
+
+
+ .icon img{
+   width: 2%!important;
+   margin: 13px 10px!important;
+ }
+
+ /* ................End.................... */
